@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description"
         content="Richard Fazzio's personal project website. Displays projects and usefule links for Richard Fazzio." />
-    <meta name="author" content="Richard Fazzio" />
+    <meta name="author" content="Richard Fazzio" /> 
     <title>Richard Fazzio</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -89,27 +89,51 @@
     </section>
 
     <!-- Projects-->
-    <section class="page-section" id="projects">
+    <div id="projects"></div>
+    <section class="page-section">
         <div class="container-fluid p-20 h-100 mt-0">
             <h2 class="text-center p-20">Projects</h2>
             <hr class="divider my-4" />
             <div class="row justify-content-center no-gutters">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/project/fullsize/1.jpg" class="card-img-top" alt="...">
+                <div class="card mr-4" style="width: 18rem;">
+                    <img src="assets/img/projects/logo-circuit.png" style="height: 18rem;" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Project Title</h5>
+                    <hr class="divider light-blue my-1" />
+                        <h5 class="card-title mt-2">Circuit SDK</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                         <div class="m-auto">
-                            <div class="d-flex h-30">
+                            <div class="d-flex h-30 private">
                                 View App:
-                                <a class="view" href="#">
+                                <a class="view">
                                     <i class="fab fa-app-store"></i>
                                 </a>
                             </div>
                             <div class="d-flex h-30">
                                 View Code:
-                                <a class="view" href="#">
+                                <a class="view" target="_blank" href="https://github.com/circuit/circuit-sdk">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mr-4" style="width: 18rem;">
+                    <img src="assets/img/projects/node-red.png" style="height: 18rem;" class="card-img-top" alt="Node Red" title="Node Red">
+                    <div class="card-body">
+                        <hr class="divider light-blue my-1" />
+                        <h5 class="card-title mt-2">node-red-contrib-circuit</h5>
+                        <p class="card-text">Integrates Circuit SDK with node red, allowing user to easily integrate Circuit APIs into node-red flow.</p>
+                        <div class="m-auto">
+                            <div class="d-flex h-30">
+                                View App:
+                                <a class="view" target="_blank" href="https://flows.nodered.org/node/node-red-contrib-circuit">
+                                    <i class="fab fa-app-store"></i>
+                                </a>
+                            </div>
+                            <div class="d-flex h-30">
+                                View Code:
+                                <a class="view" target="_blank" href="https://github.com/circuit/node-red-contrib-circuit">
                                     <i class="fas fa-code"></i>
                                 </a>
                             </div>
@@ -126,36 +150,36 @@
     <section class="page-section" id="skills">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 text-center mt-4">
+                <div class="col-lg-4 text-center mt-4">
                     <div class="d-flex justify-content-center">
                         <i class="fas fa-4x fa-laptop-code text-primary mb-0"></i>
                         <h2 class="text-center mt-0 education">Languages</h2>
                     </div>
                     <hr class="divider my-4" />
                     <ul class="list-group mt-4">
-                        <li class="list-group-item list-group-item-primary">JavaScript: Expert</li>
-                        <li class="list-group-item">TypeScript: Expert</li>
-                        <li class="list-group-item list-group-item-primary">Python: Medium</li>
-                        <li class="list-group-item">SQL: Medium</li>
-                        <li class="list-group-item list-group-item-primary">C++: Medium</li>
-                        <li class="list-group-item">Java: Medium</li>
-                        <li class="list-group-item list-group-item-primary">C: Novice</li>
+                        <li class="list-group-item list-group-item-primary">JavaScript</li>
+                        <li class="list-group-item">TypeScript</li>
+                        <li class="list-group-item list-group-item-primary">Python</li>
+                        <li class="list-group-item">SQL</li>
+                        <li class="list-group-item list-group-item-primary">Java:</li>
+                        <li class="list-group-item">C++</li>
+                        <li class="list-group-item list-group-item-primary">C</li>
                     </ul>
                 </div>
-                <div class="col-lg-6 text-center mt-4">
+                <div class="col-lg-4 text-center mt-4">
                     <div class="d-flex justify-content-center">
                         <i class="fas fa-4x fa-tv text-primary mb-0"></i>
                         <h2 class="text-center mt-0 education">Skills</h2>
                     </div>
                     <hr class="divider my-4" />
                     <ul class="list-group mt-4">
-                        <li class="list-group-item list-group-item-primary">Vue: Expert</li>
-                        <li class="list-group-item">Angular: Expert</li>
+                        <li class="list-group-item list-group-item-primary">Angular | Vue</li>
+                        <li class="list-group-item ">NodeJS | Express</li>
                         <li class="list-group-item list-group-item-primary">Git</li>
-                        <li class="list-group-item">Agile | Jira | Confluence</li>
-                        <li class="list-group-item list-group-item-primary">HTML5 + LESS | CSS</li>
+                        <li class="list-group-item">MySQL | MongoDB</li>
+                        <li class="list-group-item list-group-item-primary">Agile | Jira | Confluence</li>
                         <li class="list-group-item">Bootstrap</li>
-                        <li class="list-group-item list-group-item-primary">MySQL | MongoDB</li>
+                        <li class="list-group-item list-group-item-primary">HTML5 + LESS | CSS</li>
                     </ul>
                 </div>
             </div>
