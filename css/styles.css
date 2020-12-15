@@ -10200,3 +10200,46 @@ header.masthead h1 {
   padding-left: 5px;
   margin-top: 2px;
 }
+
+.private {
+  text-decoration: line-through;
+}
+
+.private > a {
+  cursor: not-allowed;
+}
+
+/* Scroll Bar */
+
+body::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--light-blue);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--light);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  min-height: 44px;
+}
