@@ -3875,6 +3875,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
+  margin-right: 15px;
   list-style: none;
 }
 
