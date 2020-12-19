@@ -6,15 +6,15 @@
     (function($) {
   "use strict"; // Start of use strict
 
+  $('#home').click(() => {
+    $("html, body").animate({ scrollTop: 0 });
+    return false;
+  });
+
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
-  });
-
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 75
   });
 
   // Collapse Navbar
@@ -48,11 +48,6 @@
 
   $('#phoneNumber').click(() => {
     const phoneNumber = '5614109332';
-    // debugger;
-    // const element = document.getElementById('phoneNumber');
-    // element.select();
-    // element.setSelectionRange(0, 10);
-    // document.execCommand('copy');
     const el = document.createElement('textarea');
     el.value = phoneNumber;
     document.body.appendChild(el);
