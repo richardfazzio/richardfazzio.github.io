@@ -620,6 +620,10 @@ pre code {
   grid-row: 2;
 }
 
+.carousel-inner .card {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
 
 .container-fluid.projects.projects {
   grid-column: 1;
@@ -4000,7 +4004,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0 0.5rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4404,13 +4408,26 @@ input[type=button].btn-block {
   padding: 1.25rem;
 }
 
+.project-time {
+  font-size: 14px;
+  padding-left: 5px;
+}
+
 .card-title {
+  margin-top: 1rem;
   margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+}
+
+.card-text {
+  font-size: 1rem !important;
 }
 
 .card-text:last-child {
@@ -5881,6 +5898,7 @@ a.close.disabled {
 }
 
 .carousel-item {
+  padding-top: 25px;
   position: relative;
   display: none;
   float: left;
@@ -5993,7 +6011,7 @@ a.close.disabled {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
   left: 0;
   z-index: 15;
   display: flex;
@@ -10299,4 +10317,8 @@ header.masthead h1 {
 
 .row.projects::-webkit-scrollbar-thumb {
   min-height: 44px;
+}
+
+.masthead.projects {
+  padding-top: 5.90rem;
 }

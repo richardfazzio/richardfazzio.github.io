@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <a class="navbar-brand js-scroll-trigger" href="#home" id="home">Home</a>
@@ -66,7 +66,6 @@
                     </a>
                 </div>
             </div>
-
         </div>
     </header>
 
@@ -82,7 +81,8 @@
                     <p class="text-white mb-5">
                         I love to develop fun applications and take on new projects to challenge what I can do.
                         I love to learn and I have recently completed my Master's degree from Florida Atlantic
-                        University, but in my spare time I still enjoy taking courses on Sites like Udemy to keep learnign and to keep up-to-date with current technologies.
+                        University, but in my spare time I still enjoy taking courses on Sites like Udemy to keep
+                        learnign and to keep up-to-date with current technologies.
                         In my spare time I enjoy socializing with friends and exploring new activities I haven't done
                         before. I play chess and am an avid Dungeons & Dragons player, I am currently DMing
                         for a group of friends, I enjoy the opportuniy to be creative and at the same time spend time
@@ -97,128 +97,150 @@
 
     <!-- Projects-->
     <div id="projects"></div>
-    <header class="masthead">
-        <div class="container-fluid projects p-20 h-100 mt-0">
-            <div class="title text-center">
-                <h2 class="text-center text-white p-20">Projects</h2>
-                <hr class="divider my-4" />
-            </div>
-            <div class="row projects no-gutters mx-5">
+    <header class="masthead projects">
+        <div class="title text-center">
+            <h2 class="text-center text-white p-20">Projects</h2>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators projects">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <!-- Circuit SDK -->
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <!-- Game Website -->
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> <!-- Node-Red -->
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> <!-- circuit-firepad-integration -->
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> <!-- customer-support -->
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> <!-- Vue components -->
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> <!-- Circuit + Microsoft Teams Integrations -->
+            </ol>
+            <div class="carousel-inner">
                 <!-- Circuit SDK -->
-                <div class="card mr-4 mb-4">
-                    <img src="assets/img/projects/logo-circuit.png" style="height: 18rem;" class="card-img-top"
-                        alt="Circuit Logo" title="Circuit SDK" loading="lazy">
-                    <div class="card-body">
-                        <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">Circuit SDK</h5>
-                        <p class="card-text">Circuit JavaScript Software Development Kit, integrate Circuit APIs to
-                            create you own applications.</p>
-                        <div class="m-auto">
-                            <div class="d-flex h-30 private">
-                                View App:
-                                <a class="view">
-                                    <i class="fab fa-app-store"></i>
-                                </a>
-                            </div>
-                            <div class="d-flex h-30">
-                                View Code:
-                                <a class="view" target="_blank" href="https://github.com/circuit/circuit-sdk">
-                                    <i class="fas fa-code"></i>
-                                </a>
+                <div class="carousel-item active">
+                    <div class="card mr-4 mb-4">
+                        <img src="assets/img/projects/logo-circuit.png" style="height: 18rem;" class="card-img-top"
+                            alt="Circuit Logo" title="Circuit SDK" loading="lazy">
+                        <div class="card-body">
+                            <hr class="divider light-blue my-1" />
+                            <h5 class="card-title d-flex">Circuit SDK <i class="project-time">(Atos 2017-2022)</i></h5>
+                            <p class="card-text">Circuit JavaScript Software Development Kit, implement Circuit APIs so
+                                developers could integrate Circuit in their own applications.</p>
+                            <div class="m-auto">
+                                <div class="d-flex h-30 private">
+                                    View App:
+                                    <a class="view">
+                                        <i class="fab fa-app-store"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex h-30">
+                                    View Code:
+                                    <a class="view" target="_blank" href="https://github.com/circuit/circuit-sdk">
+                                        <i class="fas fa-code"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <!-- Game Website -->
-                <div class="card mr-4 mb-4">
-                    <img src="assets/img/projects/games.ico" style="height: 18rem;" class="card-img-top"
-                        alt="Game Website" title="Game Website" loading="lazy">
-                    <div class="card-body">
-                        <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">Game Website</h5>
-                        <p class="card-text">[UNDER DEVELOPMENT] A website of games for users to enjoy playing some of the most classic
-                            games. Implemented in Angular and hosted on Firebase.</p>
-                        <div class="m-auto">
-                            <div class="d-flex h-30">
-                                View App:
-                                <a class="view" target="_blank" href="https://games-2d8a3.web.app/">
-                                    <i class="fab fa-app-store"></i>
-                                </a>
-                            </div>
-                            <div class="d-flex h-30">
-                                View Code:
-                                <a class="view" target="_blank" href="https://github.com/richardfazzio/games">
-                                    <i class="fas fa-code"></i>
-                                </a>
+
+                <div class="carousel-item">
+                    <div class="card mr-4 mb-4">
+                        <img src="assets/img/projects/games.ico" style="height: 18rem;" class="card-img-top"
+                            alt="Game Website" title="Game Website" loading="lazy">
+                        <div class="card-body">
+                            <hr class="divider light-blue my-1" />
+                            <h5 class="card-title d-flex">
+                                <div class="title">Game Website</div>
+                                <i class="project-time">(Personal 2020)</i>
+                            </h5>
+                            <p class="card-text">A website of games for users to enjoy playing some
+                                of
+                                the most classic
+                                games. Implemented in Angular and hosted on Firebase.</p>
+                            <div class="m-auto">
+                                <div class="d-flex h-30">
+                                    View App:
+                                    <a class="view" target="_blank" href="https://games-2d8a3.web.app/">
+                                        <i class="fab fa-app-store"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex h-30">
+                                    View Code:
+                                    <a class="view" target="_blank" href="https://github.com/richardfazzio/games">
+                                        <i class="fas fa-code"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Node-Red -->
-                <div class="card mr-4 mb-4">
-                    <img src="assets/img/projects/node-red.png" style="height: 18rem;" class="card-img-top"
-                        alt="Node Red" title="Node Red" loading="lazy">
-                    <div class="card-body">
-                        <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">node-red-contrib-circuit</h5>
-                        <p class="card-text">Integrates Circuit SDK with Node-Red, allowing users to easily integrate
-                            Circuit APIs into a Node-Red flow.</p>
-                        <div class="m-auto">
-                            <div class="d-flex h-30">
-                                View App:
-                                <a class="view" target="_blank"
-                                    href="https://flows.nodered.org/flow/a9bcf02ec768ee9e8f3373808e0103e7">
-                                    <i class="fab fa-app-store"></i>
-                                </a>
-                            </div>
-                            <div class="d-flex h-30">
-                                View Code:
-                                <a class="view" target="_blank"
-                                    href="https://github.com/circuit/node-red-contrib-circuit">
-                                    <i class="fas fa-code"></i>
-                                </a>
+                <div class="carousel-item">
+                    <div class="card mr-4 mb-4">
+                        <img src="assets/img/projects/node-red.png" style="height: 18rem;" class="card-img-top"
+                            alt="Node Red" title="Node Red" loading="lazy">
+                        <div class="card-body">
+                            <hr class="divider light-blue my-1" />
+                            <h5 class="card-title">node-red-contrib-circuit</h5>
+                            <p class="card-text">Integrates Circuit SDK with Node-Red, allowing users to easily
+                                integrate
+                                Circuit APIs into a Node-Red flow.</p>
+                            <div class="m-auto">
+                                <div class="d-flex h-30">
+                                    View App:
+                                    <a class="view" target="_blank"
+                                        href="https://flows.nodered.org/flow/a9bcf02ec768ee9e8f3373808e0103e7">
+                                        <i class="fab fa-app-store"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex h-30">
+                                    View Code:
+                                    <a class="view" target="_blank"
+                                        href="https://github.com/circuit/node-red-contrib-circuit">
+                                        <i class="fas fa-code"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- circuit-firepad-integration -->
-                <div class="card mr-4 mb-4">
-                    <img src="./assets/img/projects/firepad.png"
-                        style="height: 18rem;" class="card-img-top" alt="circuit-firepad-integration"
-                        title="circuit-firepad-integration" loading="lazy">
-                    <div class="card-body">
-                        <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">circuit-firepad-integration</h5>
-                        <p class="card-text">Bot for Circuit that allows users to host co-editing sessions from a
-                            conversation. Uses Vue, Express, and Firebase.</p>
-                        <div class="m-auto">
-                            <div class="d-flex h-30">
-                                View App:
-                                <a class="view" target="_blank" href="https://www.youtube.com/watch?v=h9y7qKKCs-M">
-                                    <i class="fab fa-app-store"></i>
-                                </a>
-                            </div>
-                            <div class="d-flex h-30">
-                                View Code:
-                                <a class="view" target="_blank"
-                                    href="https://github.com/circuit/circuit-firepad-integration">
-                                    <i class="fas fa-code"></i>
-                                </a>
+                <div class="carousel-item">
+                    <div class="card mr-4 mb-4">
+                        <img src="./assets/img/projects/firepad.png" style="height: 18rem;" class="card-img-top"
+                            alt="circuit-firepad-integration" title="circuit-firepad-integration" loading="lazy">
+                        <div class="card-body">
+                            <hr class="divider light-blue my-1" />
+                            <h5 class="card-title">circuit-firepad-integration</h5>
+                            <p class="card-text">Bot for Circuit that allows users to host co-editing sessions from a
+                                conversation. Uses Vue, Express, and Firebase.</p>
+                            <div class="m-auto">
+                                <div class="d-flex h-30">
+                                    View App:
+                                    <a class="view" target="_blank" href="https://www.youtube.com/watch?v=h9y7qKKCs-M">
+                                        <i class="fab fa-app-store"></i>
+                                    </a>
+                                </div>
+                                <div class="d-flex h-30">
+                                    View Code:
+                                    <a class="view" target="_blank"
+                                        href="https://github.com/circuit/circuit-firepad-integration">
+                                        <i class="fas fa-code"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- customer-support -->
+                <div class="carousel-item">
                 <div class="card mr-4 mb-4">
                     <img src="assets/img/projects/logo-circuit.png" style="height: 18rem;" class="card-img-top"
                         alt="customer-support" title="customer-support" loading="lazy">
                     <div class="card-body">
                         <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">customer-support</h5>
+                        <h5 class="card-title">customer-support</h5>
                         <p class="card-text">Customer complaint system using Circuit for communication.</p>
                         <div class="m-auto">
                             <div class="d-flex h-30 private">
@@ -236,15 +258,17 @@
                         </div>
                     </div>
                 </div>
+                </div>
 
                 <!-- Vue components -->
+                <div class="carousel-item">
                 <div class="card mr-4 mb-4">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png"
                         style="height: 18rem;" class="card-img-top" alt="vue-components" title="vue-components"
                         loading="lazy">
                     <div class="card-body">
                         <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">vue-components</h5>
+                        <h5 class="card-title">vue-components</h5>
                         <p class="card-text">VueJs components for Circuit that allow for ES6 imports using webpack.</p>
                         <div class="m-auto">
                             <div class="d-flex h-30">
@@ -263,17 +287,20 @@
                         </div>
                     </div>
                 </div>
+                </div>
 
                 <!-- Circuit + Microsoft Teams Integrations -->
+                <div class="carousel-item">
                 <div class="card mr-4 mb-4">
                     <img src="assets/img/projects/teams_logo.png" style="height: 18rem;" class="card-img-top"
                         alt="Circuit + Microsoft Teams Integrations" title="Circuit + Microsoft Teams Integrations"
                         loading="lazy">
                     <div class="card-body">
                         <hr class="divider light-blue my-1" />
-                        <h5 class="card-title mt-2">Circuit + Microsoft Teams Integrations [PRIVATE]</h5>
+                        <h5 class="card-title">Circuit + Microsoft Teams Integrations [PRIVATE]</h5>
                         <p class="card-text">Allows the user to view contacts in Circuit, initiate/join calls, view
-                            voicemails and make telephony calls through Circuit from MS Teams. This application was built out using Vue as the front-end framework.
+                            voicemails and make telephony calls through Circuit from MS Teams. This application was
+                            built out using Vue as the front-end framework.
                         </p>
                         <div class="">
                             <div class="d-flex h-30 private">
@@ -290,8 +317,17 @@
                             </div>
                         </div>
                     </div>
+                </div> 
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </header>
 
