@@ -1,0 +1,112 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Personal
+#   filter: "personal"
+
+# your projects
+projects:
+- name: Greenway Telehealth
+  logo: /images/sections/projects/gway.svg
+  role: Developer
+  timeline: "Jan 2021 - Present"
+  url: "https://www.greenwayhealth.com/solutions/telehealth"
+  summary: Allow healthcare providers to provide care from anywhere, increase engagement, and improve workflow efficiency with telehealth solution.
+  tags: ["professional", "Angular", "typescript", "C#", ".NET", "AWS"]
+
+- name: Greenway Patient Portal
+  logo: /images/sections/projects/gway.svg
+  role: Developer
+  timeline: "Jan 2021 - Present"
+  url: "https://www.greenwayhealth.com/solutions/online-patient-portal"
+  summary: Patient & Admin Portal allowing both healthcare providers and patients to access their healthcare information, as well as interact with Greenway's Patient Messaging solution.
+  tags: ["professional", "Angular", "typescript", "C#", ".NET Core", "AWS"]
+
+- name: Greenway Patient Messaging
+  logo: /images/sections/projects/gway.svg
+  role: Developer
+  timeline: "Jan 2021 - Present"
+  url: "https://www.greenwayhealth.com/solutions/patient-messaging"
+  summary: Notify patients of their appointments, prescriptions, and other important heathcare informatin via text, telephony, or email messages.
+  tags: ["professional", "C#", ".NET", "AWS"]
+- name: Circuit
+  logo: /images/sections/projects/circuit.png
+  role: Developer
+  timeline: "Feb 2017- March 2020"
+  url: "https://www.circuit.com/" 
+  summary: Production-Grade Container Scheduling and Management.
+  tags: ["professional", "angular"]
+
+- name: Circuit SDK
+  logo: /images/sections/projects/circuit.png
+  role: Developer
+  timeline: "Feb 2017- March 2020"
+  repo: https://github.com/circuit/circuit-sdk
+  #url: ""
+  summary: Circuit JavaScript Software Development Kit, implement Circuit APIs so developers could integrate Circuit in their own applications.
+  tags: ["professional", "javascript"]
+
+
+- name: Game Website
+  logo: /images/sections/projects/games.png
+  role: Owner
+  timeline: "Dec 2020 - Jan 2021"
+  url: "https://games-2d8a3.web.app/"
+  repo: "https://github.com/richardfazzio/games"
+  summary: A website of games for users to enjoy playing some of the most classic games. Implemented in Angular and hosted on Firebase.
+  tags: ["personal", "Angular", "typescript", "firebase"]
+
+- name: node-red-contrib-circuit
+  logo: /images/sections/projects/nodered.png
+  role: Developer
+  timeline: "Feb 2017- March 2020"
+  url: "https://flows.nodered.org/node/node-red-contrib-circuit"
+  repo: "https://github.com/circuit/node-red-contrib-circuit"
+  summary: Integrates Circuit SDK with Node-Red, allowing users to easily integrate Circuit APIs into a Node-Red flow.
+  tags: ["professional", "javascript", "node-red"]
+
+- name: Circuit + Microsoft Teams Integrations
+  logo: /images/sections/projects/msteams.png
+  role: Developer
+  timeline: "October 2019 - March 2020"
+  summary: Allows the user to view contacts in Circuit, initiate/join calls, view voicemails and make telephony calls through Circuit from MS Teams. This application was built out using Vue as the front-end framework.
+  tags: ["professional", "javascript", "vue"]
+
+- name: vue-components
+  logo: /images/sections/projects/vue.png
+  role: Developer
+  url: "https://stackblitz.com/edit/circuitsdk-template"
+  repo: "https://github.com/circuit/vue-components"
+  timeline: "Feb 2017- March 2020"
+  summary: VueJs components for Circuit that allow for ES6 imports using webpack.
+  tags: ["professional", "javascript", "vue"]
+
+- name: customer-support
+  logo: /images/sections/projects/circuit.png
+  role: Developer
+  timeline: "Feb 2017- March 2020"
+  repo: "https://github.com/circuit/customer-support"
+  summary: Customer complaint system using Circuit for communication.
+  tags: ["professional", "javascript", "nodejs", "express"]
+
+- name: circuit-firepad-integration
+  logo: /images/sections/projects/circuit.png
+  role: Developer
+  timeline: "Feb 2017- March 2020"
+  url: "https://www.youtube.com/watch?v=h9y7qKKCs-M"
+  repo: "https://github.com/circuit/circuit-firepad-integration"
+  summary: A website of games for users to enjoy playing some of the most classic games. Implemented in Angular and hosted on Firebase.
+  tags: ["professional", "vue", "javascript", "nodejs", "express"]

@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Greenway Health
+    url: "https://greenwayhealth.com/"
+    location: Tampa, FL (Remote)
+    # company overview
+    overview: Greenway Health provides electronic health records (EHR), practice management, and revenue cycle management solutions that help practices in multiple specialties grow profitably, remain compliant, work more efficiently, and improve patient outcomes.
+  positions:
+  - designation: Software Engineer
+    start: Nov 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Designing and implementing new features for Greenway Telehealth, Greenway Patient Portal, and Greenway Patient Messaging  using Angular and .NET Core as web technologies.
+    - Leverage AWS services for use in Greenway Products, such as Greenway Telehealth, Greenway Patient Portal, and Greenway Patient Messaging.
+    - Utilized Jenkins and Terraform for automated deployments of AWS resources in different environments for Sandbox, QA, and Production environments.
+
+- company:
+    name: Atos Unify
+    url: "https://unify.com/en/"
+    location: Baco Raton, FL
+    overview: Circuit provides onne virtual meeting space with all the capabilities you need to communicate with your teams, incuding text converations, video calling, and screen sharing.
+  positions:
+  - designation: Software Engineer
+    start: Feb 2017
+    end: March 2020
+    responsibilities:
+    - Implementing and maintaining features for Circuit, an enterprise communication application using Angular.
+    - Implemented features for Circuit, an enterprise communication application using Angular.
+    - Integrating Circuit with Microsoft teams using Vue and RESTful APIs to allow the use of Circuit functionality through Microsoft Teams.

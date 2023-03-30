@@ -1,0 +1,20 @@
+# some information about you
+name: "Richard Fazzio"
+nickname: "Richard"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/avatar.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "rfazziodev@gmail.com"
+  phone: "+5614109332"
+  github: richardfazzio
+  linkedin: richard-fazzio
+
+# some summary about what you do
+summary:
+  - I am a Full Stack Software Engineer
+  - I am an Angular developer
+  - I am a Vue deveoper
+  - I am a C# / .NET developer
+  - I enjoy creating software that helps make people's quality of life better

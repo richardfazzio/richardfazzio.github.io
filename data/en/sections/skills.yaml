@@ -1,0 +1,70 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+
+  # section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: JavaScript
+  logo: /images/sections/skills/javascript.png
+  summary: "Proficient, worked on several enterprise grade applications using both NodeJs and client-side JavaScript such Circuit, Circuit-SDK, and several personal projects"
+
+- name: TypeScript
+  logo: /images/sections/skills/typescript.svg
+  summary: "Proficient, worked on several enterprise grade applications such as Greenway Patient Portal, Greenway Telehealth, Greenway SmartHub, and personal projects."
+
+- name: Angular
+  logo: /images/sections/skills/angular.png
+  summary: "Proficient with Angular, worked on enterprise grade applications done in Angular such as Greenway Telehealth, Greenway Patient Portal, and Circuit."
+  url: "https://angular.io/"
+
+- name: Vue
+  logo: /images/sections/skills/vue.png
+  summary: "Proficient with Vue, worked on enterprise grade application integrating Circuit with Microsoft Teams."
+  url: "https://vuejs.org/"
+
+- name: C# / .NET
+  logo: /images/sections/skills/csharp.png
+  summary: "Proficient, worked on eterprise grade applications for Greenway Patient Portal, Greenway Telehealth, Greenway SmartHub, and Greenway Patient Messaging."
+
+- name: AWS
+  logo: /images/sections/skills/aws.png
+  summary: "Proficient with AWS, leveraged several different AWS service to deliver enterprise grade applications, microservices, and other solutions to customers."
+  url: "https://aws.amazon.com/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient, used for Machine Learning projects, scripting solutions for data fixes in enterprise grade databases, as well as used for scripting personal projects."
+
+- name: SQL
+  logo: /images/sections/skills/sql.svg
+  summary: "Proficient, used Microsoft SQL Server in enterprise grade applications such as Greenway Patient Portal and Greenway Patient Messaging applications."
+
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Familiar, used for acedemic projects and used sparsely in End-to-end automation testing for enterprise grade applications such as Circuit."
+
+- name: C / C++
+  logo: /images/sections/skills/cpp.png
+  summary: "Familiar, used for several acedemic projects such as Algorithm assignments, CPU scheduler simulations, others."

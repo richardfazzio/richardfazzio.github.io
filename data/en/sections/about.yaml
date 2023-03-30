@@ -1,0 +1,57 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: Greenway Health
+  url: "https://www.greenwayhealth.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "https://drive.google.com/file/d/1aPbYTIP2tnT6ypmnL5ceoTi_8gyxkkCZ/view?usp=sharing"
+
+# a summary about you
+summary: "I love to learn and I have recently completed my Master's degree from Florida Atlantic University, but in my spare time I still enjoy taking courses using sources like Udemy or Pluralsight to keep learning and to keep up-to-date with current technologies. In my spare time I enjoy socializing with friends and exploring new activities I haven't done before. I play chess and am an avid Dungeons & Dragons player, I am currently DMing for a group of friends, I enjoy the opportuniy to be creative and at the same time spend time with close friends."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/richardfazzio"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/richard-fazzio"
+- name: Facebook
+  icon: "fab fa-facebook-square"
+  url: "https://www.facebook.com/fazzior"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Angular
+  percentage: 100
+  color: pink
+- name: Vue
+  percentage: 95
+  color: green
+- name: C# & .NET
+  percentage: 90
+  color: pink
+- name: JavaScript
+  percentage: 100
+  color: yellow
+- name: TypeScript
+  percentage: 100
+  color: blue
+- name: AWS
+  percentage: 95
+  color: orange
